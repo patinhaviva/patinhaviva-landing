@@ -68,6 +68,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px 60px;display:fl
 .btn-primary:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(124,47,214,.5)}
 .btn-ghost{background:rgba(255,255,255,.7);color:var(--ink);border:2px solid rgba(26,16,48,.2);padding:17px 42px;border-radius:100px;font-size:1rem;font-weight:500;font-family:'DM Sans',sans-serif;transition:border-color .2s,color .2s,background .2s}
 .btn-ghost:hover{border-color:var(--violet);color:var(--violet);background:#fff}
+.btn-whatsapp{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#25D366,#1EBE57);color:#fff;border:none;padding:17px 36px;border-radius:100px;font-size:1rem;font-weight:600;font-family:'DM Sans',sans-serif;text-decoration:none;transition:transform .2s,box-shadow .2s;box-shadow:0 6px 24px rgba(37,211,102,.35)}
+.btn-whatsapp:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(37,211,102,.5)}
+.btn-whatsapp svg{width:22px;height:22px;fill:#fff;flex:none}
+.wa-band{text-align:center;padding:60px 24px;background:var(--bg2)}
+.wa-band h3{font-family:'Lora',serif;font-size:clamp(1.5rem,3vw,2.1rem);color:var(--ink);margin:0 0 10px;font-weight:600}
+.wa-band p{font-family:'DM Sans',sans-serif;color:var(--ink);opacity:.72;margin:0 auto 26px;font-size:1.02rem;max-width:520px}
 
 .hero-modules{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;animation:fadeUp .8s ease .5s both}
 .module-pill{display:flex;align-items:center;gap:8px;padding:9px 22px;border-radius:100px;font-size:.85rem;font-weight:600;border:2px solid;transition:transform .2s,box-shadow .2s}
@@ -291,6 +297,11 @@ footer{background:var(--ink);padding:60px 60px 40px}
       <button class="btn-primary" onclick="location.href='https://patinhaviva-app.vercel.app/'">
         Garantir meu acesso agora
       </button>
+      <a class="btn-whatsapp" href="https://wa.me/5531995100199?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Patinha%20Viva%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.519 5.26l-.999 3.648 3.748-.985zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+        Falar no WhatsApp
+      </a>
       <button class="btn-ghost" onclick="document.getElementById('modulos').scrollIntoView({behavior:'smooth'})">
         Conhecer a plataforma
       </button>
@@ -477,6 +488,17 @@ footer{background:var(--ink);padding:60px 60px 40px}
     </div>
   </div>
 </section>
+
+<!-- BOTAO WHATSAPP - MEIO -->
+<div class="wa-band">
+  <h3>Ficou com alguma d&uacute;vida?</h3>
+  <p>Fale direto com a gente pelo WhatsApp. Respondemos rapidinho e te ajudamos a come&ccedil;ar a cuidar da hist&oacute;ria do seu pet.</p>
+  <a class="btn-whatsapp" href="https://wa.me/5531995100199?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20a%20Patinha%20Viva." target="_blank" rel="noopener">
+    
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.519 5.26l-.999 3.648 3.748-.985zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+    Chamar no WhatsApp
+  </a>
+</div>
 
 <!-- DEPOIMENTOS -->
 <section class="section-testimonials">
@@ -673,6 +695,13 @@ footer{background:var(--ink);padding:60px 60px 40px}
     <div class="cta-form">
       <input id="cta-email" class="cta-input" type="email" placeholder="seu@email.com.br"/>
       <button class="btn-primary" onclick="location.href='https://patinhaviva-app.vercel.app/'">Garantir acesso</button>
+    </div>
+    <div style="margin:22px 0 4px">
+      <a class="btn-whatsapp" href="https://wa.me/5531995100199?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Patinha%20Viva%20e%20gostaria%20de%20falar%20com%20voc%C3%AAs." target="_blank" rel="noopener">
+        
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.519 5.26l-.999 3.648 3.748-.985zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+        Falar no WhatsApp
+      </a>
     </div>
     <p class="cta-privacy">Sem spam. Seus dados protegidos pela <a href="#">LGPD</a>.</p>
     <div class="social-proof">
